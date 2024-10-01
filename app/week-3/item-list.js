@@ -1,4 +1,4 @@
-import Item from "./item";
+import ItemComponent from "./item";
 
 export default function ItemList(itemObj) {
     
@@ -76,9 +76,20 @@ export default function ItemList(itemObj) {
 
       return(
         <div>
-            <p>{name}</p>
-            <p>{quantity}</p>
-            <p>{category}</p>
+          <ul>
+            <li><ItemComponent itemObj={item1}/></li>
+            <li><ItemComponent itemObj={item2}/></li>
+            <li><ItemComponent itemObj={item3}/></li>
+            <li><ItemComponent itemObj={item4}/></li>
+            <li><ItemComponent itemObj={item5}/></li>
+            <li><ItemComponent itemObj={item6}/></li>
+            <li><ItemComponent itemObj={item7}/></li>
+            <li><ItemComponent itemObj={item8}/></li>
+            <li><ItemComponent itemObj={item9}/></li>
+            <li><ItemComponent itemObj={item10}/></li>
+            <li><ItemComponent itemObj={item11}/></li>
+            <li><ItemComponent itemObj={item12}/></li>
+          </ul>
         </div>
       );
 }
