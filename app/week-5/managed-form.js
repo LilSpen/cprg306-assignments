@@ -48,7 +48,7 @@ export default function ManagedForm() {
         setPhone("");
         setEmail("");
         setBirthdate("");
-        //setContactType("");
+        setContactType("");
         setMessage("");
 
         }
