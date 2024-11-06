@@ -57,7 +57,7 @@ const styles = {
             //justifyContent: "center",
         },
         formContainer: {
-            backgroundColor: "cyan",
+            backgroundColor: "deepskyblue",
             maxWidth: "600px",
             padding: 25,
             borderRadius: 10,
