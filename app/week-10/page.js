@@ -33,7 +33,7 @@ export default function SignInPage() {
           <p>{user.email}</p>
           <img src={user.photoURL} className="w-10 h-10" alt="User Avatar" />
           <div>
-            <Link href="/week-9/shopping-list/">Shopping List</Link>
+            <Link href="/week-10/shopping-list/">Shopping List</Link>
           </div>
           <button
             type="button"
